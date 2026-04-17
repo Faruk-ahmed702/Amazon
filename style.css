@@ -1,0 +1,139 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+
+#navbar{
+    height: 100px;
+    background-color: rgb(15, 15, 55);
+}
+
+#Logo{
+   color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    display: inline;
+    margin-left: 20px;
+}
+
+#Acc{
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 750px;
+  display: inline;
+}
+
+
+#Order{
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 55px;
+  display: inline;
+}
+
+#Cart{
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 55px;
+  display: inline;
+}
+
+#clk{
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 55px;
+  display: inline;
+}
+
+#Search{
+  margin-left: 400px;
+  width: 400px;
+  height: 25px;
+}
+
+#button{
+  background-color: orange;
+  height: 30px;
+  width: 80px;
+  color: white;
+}
+
+.banner {
+    background: url(shopping\ mall.jpg) no-repeat center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Products */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    width: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    margin-right: 20px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+/*  text-align:left,center,right 
+    text-transform: lowercase, upercase, capitalize, none, full-width math-auto;
+    text-decoration:underline,overline,linethrough,none
+    font-weight: (normal 400),(bold 700),bolder,lighter
+    font-family:arial,..
+    font-size:20px
+    line-height:20px,10px,normal
+    border-width:10px;
+    border-style:solid,dashed
+    border-color:black;
+    border : 2px solid black;
+    border-radius:30px;
+    display:inline; it take required width
+    dislpay:block it covers entier the width 
+    display:inline-block; it set margin from all sides
+    display:none;
+    visibility:hidden;
+     visibility: visible;
+     visibility: collapse;
+    positions=>
+    static, relative, absolute, fixed, sticky.
+    example of position 
+    div{
+      position: relative;      
+      left: 20px;
+    }
+    background-image: url("link");
+    backgroun-size:cover,contain,auto.
+    */
