@@ -1,1 +1,0 @@
-﻿Deta of the project
